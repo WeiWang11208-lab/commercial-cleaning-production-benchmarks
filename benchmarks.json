@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.0.0",
+  "publishedAt": "2026-11-25",
+  "source": "https://janiscope.com/",
+  "disclaimer": "JaniScope planning assumptions derived from commercial janitorial estimating practice. Not certified ISSA 612 task times; field-verify on walkthrough.",
+  "floorSpeedMultipliers": {
+    "carpet": 1,
+    "vct": 0.88,
+    "tile": 0.8,
+    "hardwood": 0.94
+  },
+  "usRegionalWagePresets": [
+    {
+      "id": "northeast",
+      "label": "US Northeast (NY, NJ, MA, PA)",
+      "shortLabel": "Northeast",
+      "defaultWage": 21.5,
+      "typicalBurdenPct": 18,
+      "note": "Higher minimum wages & state workers comp rates."
+    },
+    {
+      "id": "west",
+      "label": "US West Coast (CA, WA, OR)",
+      "shortLabel": "West Coast",
+      "defaultWage": 22.5,
+      "typicalBurdenPct": 19,
+      "note": "Reflects West Coast metro commercial cleaner wages."
+    },
+    {
+      "id": "midwest",
+      "label": "US Midwest (IL, OH, MI, MN, TX Metro)",
+      "shortLabel": "Midwest",
+      "defaultWage": 18,
+      "typicalBurdenPct": 16,
+      "note": "Balanced metro labor rates & moderate SUTA burden."
+    },
+    {
+      "id": "south",
+      "label": "US South & Southeast (FL, GA, NC, TN)",
+      "shortLabel": "South",
+      "defaultWage": 16.5,
+      "typicalBurdenPct": 15,
+      "note": "Competitive regional wages with lower statutory burden."
+    }
+  ],
+  "facilityBenchmarks": [
+    {
+      "id": "office",
+      "name": "General Office & Corporate Suite",
+      "shortName": "General Office",
+      "calculatorUrl": "https://janiscope.com/office-cleaning-bid-calculator/",
+      "defaultBillingMode": "recurring",
+      "baseProductionSqFtPerHr": 3200,
+      "restroomMinutesPerFixture": 3,
+      "disinfectionMultiplier": 1,
+      "defaultSquareFeet": 5000,
+      "defaultRestroomFixtures": 6,
+      "defaultDaysPerWeek": 5,
+      "defaultFloorMixPct": {
+        "carpetPct": 60,
+        "vctPct": 25,
+        "tilePct": 10,
+        "hardwoodPct": 5
+      },
+      "defaultSuppliesPct": 4,
+      "typicalMarketRatePerSqFtUsd": "$0.08 – $0.18 / sq ft (monthly)",
+      "notes": "Based on JaniScope medium-density commercial office tasks (trash pull, high/low dusting, backpack vacuuming, damp mopping, and restroom sanitization)."
+    },
+    {
+      "id": "medical",
+      "name": "Medical & Dental Clinic",
+      "shortName": "Medical & Dental",
+      "calculatorUrl": "https://janiscope.com/medical-cleaning-bid-calculator/",
+      "defaultBillingMode": "recurring",
+      "baseProductionSqFtPerHr": 2950,
+      "restroomMinutesPerFixture": 4.5,
+      "disinfectionMultiplier": 1.35,
+      "defaultSquareFeet": 3200,
+      "defaultRestroomFixtures": 10,
+      "defaultDaysPerWeek": 5,
+      "defaultFloorMixPct": {
+        "carpetPct": 15,
+        "vctPct": 55,
+        "tilePct": 25,
+        "hardwoodPct": 5
+      },
+      "defaultSuppliesPct": 5.5,
+      "typicalMarketRatePerSqFtUsd": "$0.18 – $0.36 / sq ft (monthly)",
+      "notes": "Applies a 1.35x terminal disinfection factor for EPA List N hospital-grade dwell times, color-coded microfiber cross-contamination control, and exam-room sink sanitization."
+    },
+    {
+      "id": "post-construction",
+      "name": "Post-Construction Cleanup",
+      "shortName": "Post-Construction",
+      "calculatorUrl": "https://janiscope.com/post-construction-cleaning-bid-calculator/",
+      "defaultBillingMode": "one-time",
+      "baseProductionSqFtPerHr": 650,
+      "restroomMinutesPerFixture": 9,
+      "disinfectionMultiplier": 1.15,
+      "defaultSquareFeet": 4500,
+      "defaultRestroomFixtures": 8,
+      "defaultDaysPerWeek": 1,
+      "defaultFloorMixPct": {
+        "carpetPct": 20,
+        "vctPct": 30,
+        "tilePct": 35,
+        "hardwoodPct": 15
+      },
+      "defaultSuppliesPct": 7.5,
+      "typicalMarketRatePerSqFtUsd": "$0.30 – $0.65 / sq ft (one-time turnover)",
+      "notes": "Post-construction requires slow, multi-pass HEPA drywall dust extraction, adhesive/paint overspray removal, window track detailing, and fixture polishing (~500–800 sq ft/hr)."
+    },
+    {
+      "id": "retail",
+      "name": "Retail Store & Showroom",
+      "shortName": "Retail & Showroom",
+      "calculatorUrl": "https://janiscope.com/retail-cleaning-bid-calculator/",
+      "defaultBillingMode": "recurring",
+      "baseProductionSqFtPerHr": 2650,
+      "restroomMinutesPerFixture": 3.5,
+      "disinfectionMultiplier": 1.05,
+      "defaultSquareFeet": 4000,
+      "defaultRestroomFixtures": 4,
+      "defaultDaysPerWeek": 6,
+      "defaultFloorMixPct": {
+        "carpetPct": 15,
+        "vctPct": 45,
+        "tilePct": 35,
+        "hardwoodPct": 5
+      },
+      "defaultSuppliesPct": 4.5,
+      "typicalMarketRatePerSqFtUsd": "$0.11 – $0.24 / sq ft (monthly)",
+      "notes": "Sized for open-aisle hard floors with heavy scuffing, glass storefronts, fitting room mirrors, and checkout counter sanitization."
+    },
+    {
+      "id": "church",
+      "name": "Church, Worship & School Campus",
+      "shortName": "Church & School",
+      "calculatorUrl": "https://janiscope.com/church-cleaning-bid-calculator/",
+      "defaultBillingMode": "recurring",
+      "baseProductionSqFtPerHr": 2850,
+      "restroomMinutesPerFixture": 3.5,
+      "disinfectionMultiplier": 1.1,
+      "defaultSquareFeet": 8000,
+      "defaultRestroomFixtures": 14,
+      "defaultDaysPerWeek": 3,
+      "defaultFloorMixPct": {
+        "carpetPct": 55,
+        "vctPct": 30,
+        "tilePct": 10,
+        "hardwoodPct": 5
+      },
+      "defaultSuppliesPct": 4.5,
+      "typicalMarketRatePerSqFtUsd": "$0.08 – $0.17 / sq ft (monthly)",
+      "notes": "Accounts for dense seating rows in sanctuaries/classrooms, nursery toy/surface sanitization, and post-event multi-stall restroom surges."
+    },
+    {
+      "id": "gym",
+      "name": "Gym & Fitness Studio",
+      "shortName": "Gym & Fitness",
+      "calculatorUrl": "https://janiscope.com/gym-cleaning-bid-calculator/",
+      "defaultBillingMode": "recurring",
+      "baseProductionSqFtPerHr": 2900,
+      "restroomMinutesPerFixture": 4.8,
+      "disinfectionMultiplier": 1.25,
+      "defaultSquareFeet": 6000,
+      "defaultRestroomFixtures": 16,
+      "defaultDaysPerWeek": 7,
+      "defaultFloorMixPct": {
+        "carpetPct": 10,
+        "vctPct": 40,
+        "tilePct": 40,
+        "hardwoodPct": 10
+      },
+      "defaultSuppliesPct": 6,
+      "typicalMarketRatePerSqFtUsd": "$0.16 – $0.32 / sq ft (monthly)",
+      "notes": "Includes 1.25x antimicrobial disinfection factor for sweat/odor control, locker room showers, rubber/hardwood studio floors, and full-wall mirrors."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+facility_id,facility_name,default_billing_mode,base_production_sqft_per_hr,restroom_minutes_per_fixture,disinfection_multiplier,default_square_feet,default_restroom_fixtures,default_days_per_week,carpet_pct,vct_pct,tile_pct,hardwood_pct,default_supplies_pct,typical_market_rate_usd,calculator_url
+office,General Office & Corporate Suite,recurring,3200,3,1,5000,6,5,60,25,10,5,4,$0.08 – $0.18 / sq ft (monthly),https://janiscope.com/office-cleaning-bid-calculator/
+medical,Medical & Dental Clinic,recurring,2950,4.5,1.35,3200,10,5,15,55,25,5,5.5,$0.18 – $0.36 / sq ft (monthly),https://janiscope.com/medical-cleaning-bid-calculator/
+post-construction,Post-Construction Cleanup,one-time,650,9,1.15,4500,8,1,20,30,35,15,7.5,$0.30 – $0.65 / sq ft (one-time turnover),https://janiscope.com/post-construction-cleaning-bid-calculator/
+retail,Retail Store & Showroom,recurring,2650,3.5,1.05,4000,4,6,15,45,35,5,4.5,$0.11 – $0.24 / sq ft (monthly),https://janiscope.com/retail-cleaning-bid-calculator/
+church,"Church, Worship & School Campus",recurring,2850,3.5,1.1,8000,14,3,55,30,10,5,4.5,$0.08 – $0.17 / sq ft (monthly),https://janiscope.com/church-cleaning-bid-calculator/
+gym,Gym & Fitness Studio,recurring,2900,4.8,1.25,6000,16,7,10,40,40,10,6,$0.16 – $0.32 / sq ft (monthly),https://janiscope.com/gym-cleaning-bid-calculator/
