@@ -1,0 +1,52 @@
+state,direct_hourly_wage_usd,payroll_burden_pct,loaded_hourly_rate_usd,office_5000sqft_monthly_bid_usd
+Alabama,14.80,15,17.02,1175
+Alaska,21.40,19,25.47,1755
+Arizona,17.60,16,20.42,1410
+Arkansas,15.10,15,17.37,1200
+California,22.90,21,27.71,1910
+Colorado,19.80,17,23.17,1595
+Connecticut,20.60,18,24.31,1675
+Delaware,17.90,16,20.76,1430
+District of Columbia,22.40,19,26.66,1840
+Florida,16.60,15,19.09,1315
+Georgia,16.20,15,18.63,1285
+Hawaii,21.80,19,25.94,1790
+Idaho,16.50,16,19.14,1320
+Illinois,19.20,17,22.46,1550
+Indiana,16.90,15,19.44,1340
+Iowa,17.10,16,19.84,1370
+Kansas,16.40,15,18.86,1300
+Kentucky,16.10,15,18.52,1275
+Louisiana,14.90,16,17.28,1190
+Maine,18.90,17,22.11,1525
+Maryland,19.10,17,22.35,1540
+Massachusetts,22.20,19,26.42,1820
+Michigan,17.80,17,20.83,1435
+Minnesota,19.60,18,23.13,1595
+Mississippi,14.20,15,16.33,1125
+Missouri,17.00,16,19.72,1360
+Montana,17.30,17,20.24,1395
+Nebraska,17.20,15,19.78,1365
+Nevada,18.40,16,21.34,1470
+New Hampshire,18.70,16,21.69,1495
+New Jersey,20.90,19,24.87,1715
+New Mexico,16.30,16,18.91,1305
+New York,22.60,21,27.35,1885
+North Carolina,16.40,15,18.86,1300
+North Dakota,18.10,15,20.82,1435
+Ohio,17.50,16,20.30,1400
+Oklahoma,15.30,15,17.60,1215
+Oregon,21.20,19,25.23,1740
+Pennsylvania,18.40,17,21.53,1485
+Rhode Island,19.50,18,23.01,1585
+South Carolina,15.90,15,18.29,1260
+South Dakota,16.80,15,19.32,1330
+Tennessee,16.30,15,18.75,1290
+Texas,16.70,15,19.21,1325
+Utah,17.40,15,20.01,1380
+Vermont,19.70,17,23.05,1590
+Virginia,17.90,16,20.76,1430
+Washington,22.80,20,27.36,1885
+West Virginia,15.20,16,17.63,1215
+Wisconsin,17.90,16,20.76,1430
+Wyoming,17.60,16,20.42,1410

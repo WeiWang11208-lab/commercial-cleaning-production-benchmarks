@@ -1,0 +1,5 @@
+phase_id,phase_name,min_sqft_per_hr,max_sqft_per_hr,min_usd_per_sqft,max_usd_per_sqft,share_of_turnkey_pct,primary_scope
+rough,Rough Clean (Pre-Finish),900,1200,0.10,0.20,25,"Sweep heavy debris, vacuum subfloors, peel protective film, prep frames"
+final,Final Detail Clean (Turnover Core),500,700,0.20,0.40,60,"HEPA drywall dust extraction, grout/adhesive removal, fixtures & interior glass"
+touchup,White-Glove Touch-Up (Fluff Clean),1400,1900,0.06,0.12,15,Second-pass airborne dust wipe-down 24-48h before owner walkthrough
+turnkey,Combined 3-Phase Commercial Turnover,565,650,0.30,0.65,100,Full Rough + Final + Touch-Up GC contract package
